@@ -1,0 +1,17 @@
+.scrollable-div {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .scrollable-div ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .scrollable-div li {
+    padding: 5px;
+  }
+  
