@@ -131,3 +131,14 @@ var k = 0.98;
 var l = 0.01;
 console.log(Math.ceil(k));
 console.log(Math.ceil(l));
+
+
+//Iteration in js
+
+var veggies = ['onion','carrot', 'cabbage', 'tomatoes'];
+
+for (var i = 0; i < veggies.length; i++) {
+    if (veggies[i][0]=='c') {
+        console.log(veggies[i]);
+    }
+}
