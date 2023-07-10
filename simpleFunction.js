@@ -7,6 +7,7 @@
 
 
 
+//functions
 
 function greet(name) {
     console.log("Hello, " + name + "!")
@@ -15,6 +16,7 @@ const name = "John";
 
 greet(name);
 
+//Arrays
 var list = [1, 2 , 3 , 4 , 5];
 
 console.log(list);
@@ -23,12 +25,15 @@ console.log(list[3]);
 var a = 12;
 var b =18;
 
-if (a > b) {
-    console.log("He is an adult")
+function isAdult(a) {
+    if (a > 18) {
+        console.log("He is an adult")
+    }
+    else {
+        console.log("He is still a minor")
+    };
 }
-else {
-    console.log("He is still a minor")
-};
+isAdult(a);
 
 function sum(a,b) {
     var sum = a +b ;
@@ -97,3 +102,21 @@ for (i=2023; i <= 2025; i++) {
     }
 
 }
+
+//Objects in js
+
+var storeManager = {
+    name : 'Kelvin',
+    age : 24,
+    maritalStatus : 'Single',
+    educationLevel: 'Bachelors Degree'
+}
+
+console.log(storeManager.name);
+console.log(storeManager.age);
+console.log(storeManager.maritalStatus);
+console.log(storeManager.educationLevel);
+
+isAdult(storeManager.age);
+
+console.log(storeManager);
