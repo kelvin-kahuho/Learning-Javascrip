@@ -1,3 +1,13 @@
+//Data Types in Javascript- String, Number, Boolean, Null, Undefined and BigInt
+//Arithmetic operators(+ , - , / , * , % )
+//Assignment operator(=)
+//Comparison Operators- (>, <, ==, !=)
+//Logical Operators- (&& (and) - Checks for both conditions to be true, || (or) - Checks for at least one condition to be true, ! (not)- returns false if the result is true)
+
+
+
+
+
 function greet(name) {
     console.log("Hello, " + name + "!")
 }
@@ -55,4 +65,35 @@ var a = 21;
 while (a < 50) {
     console.log(a);
     a++;
+}
+
+//for loops
+for (i = 100; i < 150; i++) {
+    console.log(i);
+}
+
+//Switch statement
+var place = 'first';
+
+switch(place) {
+    case 'first':
+        console.log('Gold');
+        break;
+    case 'second':
+        console.log('Silver');
+        break;
+    case 'third':
+        console.log('Bronze');
+        break;
+    default:
+        console.log('No medal');
+}
+
+//Nested loop
+for (i=2023; i <= 2025; i++) {
+    console.log(i);
+    for (j = 6; j < 12; j++) {
+        console.log('------', j);
+    }
+
 }
