@@ -142,3 +142,14 @@ for (var i = 0; i < veggies.length; i++) {
         console.log(veggies[i]);
     }
 }
+
+//error handling in js
+
+try {
+    console.log(l+m)
+} catch(err) {
+    console.log(err)
+    console.log('The program will continue to execute')
+    console.log('The error was saved in the error log')
+}
+console.log('My program does not stop even if an error occurs')
