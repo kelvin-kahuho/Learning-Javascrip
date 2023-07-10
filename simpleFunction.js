@@ -120,3 +120,14 @@ console.log(storeManager.educationLevel);
 isAdult(storeManager.age);
 
 console.log(storeManager);
+
+//Math  object
+//Generate random numbers
+var randon = Math.random();
+console.log(randon);
+
+//Round off forward
+var k = 0.98;
+var l = 0.01;
+console.log(Math.ceil(k));
+console.log(Math.ceil(l));
