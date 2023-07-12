@@ -159,9 +159,9 @@ var purchase1 = {
     shoes: 100,
     stateTax: 1.2,
     totalPrice: function() {
-        var calculation = purchase1.shoes * purchase1.stateTax;
-        return calculation;
+        var calculation = this.shoes * this.stateTax;
+        console.log('Total price: ', calculation);
     }
 }
 
-console.log(purchase1.totalPrice);
+purchase1.totalPrice();
