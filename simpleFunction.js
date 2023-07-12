@@ -153,3 +153,15 @@ try {
     console.log('The error was saved in the error log')
 }
 console.log('My program does not stop even if an error occurs')
+
+//Object oriented programming
+var purchase1 = {
+    shoes: 100,
+    stateTax: 1.2,
+    totalPrice: function() {
+        var calculation = purchase1.shoes * purchase1.stateTax;
+        return calculation;
+    }
+}
+
+console.log(purchase1.totalPrice);
