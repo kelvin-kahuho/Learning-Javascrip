@@ -165,3 +165,26 @@ var purchase1 = {
 }
 
 purchase1.totalPrice();
+
+//Classes in js
+class car {
+    constructor(color, speed) {
+        this.color = color;
+        this.speed = speed;        
+    }
+    //class methods
+    turboOn() {
+        console.log("Turbo is on!");
+    }
+
+    mySpeed() {
+        console.log('Your speed is : ', + this.speed);
+    }
+}
+
+//Initialize objects using the class car
+const car1 = new car('red', 120);
+
+//calling some class methods
+car1.turboOn();
+car1.mySpeed();
