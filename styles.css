@@ -1,0 +1,15 @@
+input[type=text] {
+    border: none;
+    background-color: aqua;
+    border-bottom: 3px solid darkgreen;
+    width: 25%;
+    height: 1em;
+}
+
+input[type=password] {
+    border: none;
+    background-color: aqua;
+    border-bottom: 2px darkgreen solid;
+    width: 25%;
+    height: 1em;
+}
