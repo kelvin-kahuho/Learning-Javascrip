@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <style>
+        input:focus {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="Images/Twitterlogo.png" alt="Twitterlogo">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Sign Up</h1>
+        <form action="">
+            <div>
+                <label for="user_first_name"> First Name:</label><br>
+                <input type="text" name="user_first_name" id="user_first_name" required>
+            </div>
+
+            <div>
+                <label for="user_last_name">Last Name:</label>
+                <input type="text" name="user_last_name" id="user_last_name" required>
+            </div>
+            <div>
+                <label for="user_email">Email:</label>
+                <input type="email" name="user_email" id="user_email" required>
+            </div>
+            <div>
+                <label for="user_password">Password:</label>
+                <input type="password" name="user_password" id="user_password" required maxlength="12" minlength="8">
+            </div>
+            <div>
+                <label for="user_confirm_password">Confirm Password:</label>
+                <input type="password" name="user_confirm_password" id="user_confirm_password" required maxlength="12" minlength="8">
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+    </main>
+    
+</body>
+</html>
