@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+    <style>
+        input:focus:invalid {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="Images/Twitterlogo.png" alt="Twitterlogo">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <form action="">
+                <div>
+                    <label for="username">Username:</label><br>
+                    <input type="text" name="username" id="username" placeholder="username" required>
+                </div>
+
+                <div>
+                    <label for="password">Password:</label><br>
+                    <input type="password" name="password" id="password" placeholder="password" required maxlength="">
+                </div>
+
+                <div>
+                    <button>Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
