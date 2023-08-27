@@ -6,3 +6,9 @@ scrollButton.addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
+
+const buyButton = document.getElementsById('buy');
+
+buyButton.addEventListener('click', () => {
+    alert('Are you sure?');
+});
